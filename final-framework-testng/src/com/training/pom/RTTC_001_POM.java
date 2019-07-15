@@ -71,12 +71,6 @@ private WebDriver driver;
 	@FindBy(xpath="//input[@type='submit']")  //Submit button
 	private WebElement submit;
 	
-	
-	
-	
-	
-	
-	
 	public void loginAction() {
 		
 		 Actions action = new Actions(driver);
